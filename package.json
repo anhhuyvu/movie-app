@@ -53,5 +53,6 @@
     "@types/react-slick": "^0.23.8",
     "cross-env": "^7.0.3",
     "sass-loader": "^7.3.1"
-  }
+  },
+  "proxy": "http://www.omdbapi.com"
 }
