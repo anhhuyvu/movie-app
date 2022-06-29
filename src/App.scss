@@ -1,0 +1,21 @@
+@import '../src/common-style/colors.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: $primary-color;
+}
+
+.app-container {
+  margin: 0 40px;
+  min-height: 650px;
+}

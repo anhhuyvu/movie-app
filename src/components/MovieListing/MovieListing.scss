@@ -1,0 +1,26 @@
+@import '../../common-style/colors.scss';
+
+.movie-list {
+  margin: 20px 0;
+
+  .search-input {
+    display: flex;
+    justify-content: space-around;
+    h2 {
+      color: $font-secondary;
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+    input {
+      width: 400px;
+      height: 30px;
+      border-radius: 10px solid black;
+    }
+  }
+}
+
+// .movie-container {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+//   grid-gap: 30px;
+// }
